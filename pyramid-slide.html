@@ -29,7 +29,13 @@
 
     <form id="draw-form">
         <label>
-            How high?
+            Brick Symbol
+            <select id="brickSymbol">
+                <option value="#">#</option>
+                <option value="@">@</option>
+                <option value="X">X</option>
+                <option value="$">$</option>
+            </select>
             <input type="range" id="height" min="1" max="20" oninput="drawPyramid(height)">
             <label class="error-message">
                 <!-- If there was a user error, we will put a message in here -->

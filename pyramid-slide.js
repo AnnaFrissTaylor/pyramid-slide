@@ -98,8 +98,9 @@ function drawPyramid(height) {
             var spaceChar = "&nbsp"; // this is the HTML encoding for a space " "
             rowStr += spaceChar;
         }
+        var b = document.getElementById("brickSymbol").value
         for (var i = 0; i < numBricks; i++) {
-            rowStr += "#";
+            rowStr += b;
         }
 
         // make a <p> element for this row, and insert it into the #pyramid container
