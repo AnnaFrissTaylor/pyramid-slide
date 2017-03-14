@@ -1,0 +1,35 @@
+#pyramid {
+    line-height: 0;
+    font-size: 30px;
+}
+body {
+    font-family: "Courier New", monospace;
+    text-align: center;
+
+}
+
+.invalid-field {
+    border: 1px solid red;
+}
+
+.error-message {
+    color: red;
+}
+
+.header {
+    background-color: purple;
+    font-weight: bold;
+    color: #e3e3e3;
+}
+
+.boxx {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid purple;
+    padding: 25px;
+    margin: 25px;
+    position: absolute;
+    border-radius: 5px
+
+
+}
